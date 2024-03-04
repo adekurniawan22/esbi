@@ -1,0 +1,151 @@
+body {
+    background-color: #f8f9fa;
+    font-family: "Arial", sans-serif;
+}
+
+.register-container {
+    padding: 0px;
+    margin-top: 100px;
+    max-width: 700px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.register-content {
+    display: flex;
+    align-items: center;
+}
+
+.register-form {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 100%;
+}
+
+.register-form input {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.register-form button {
+    width: 100%;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+    background-color: #0056b3;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+    text-align: center;
+}
+
+.register-img {
+    padding: 0px 15px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.login-link a:hover {
+    color: #0056b3;
+}
+
+.login-container {
+    padding: 0px;
+    margin-top: 100px;
+    max-width: 700px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-content {
+    display: flex;
+    align-items: center;
+}
+
+.login-form {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 100%;
+}
+
+.login-form input {
+    margin-bottom: 15px;
+    /* Mengurangi margin bottom */
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 14px;
+    /* Mengurangi ukuran font */
+}
+
+.login-form button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    /* Mengurangi margin bottom */
+    color: #007bff;
+    text-align: center;
+}
+
+.login-img {
+    padding: 0px 15px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+    color: #0056b3;
+}
