@@ -7,7 +7,7 @@ class Auth extends Controller
 		if (isset($_SESSION['id_user'])) {
 			// Jika session id_user sudah ada, arahkan ke halaman obat
 			$_SESSION['pesan'] = 'Anda sudah login, tidak bisa mengakses halaman ini lagi';
-			header('Location: http://localhost/esbi/public/obat');
+			header('Location: ' . BASEURL . '/obat');
 			exit;
 		}
 		$data['judul'] = "Login";
@@ -19,7 +19,7 @@ class Auth extends Controller
 		if (isset($_SESSION['id_user'])) {
 			// Jika session id_user sudah ada, arahkan ke halaman obat
 			$_SESSION['pesan'] = 'Anda sudah login, tidak bisa mengakses halaman ini lagi';
-			header('Location: http://localhost/esbi/public/obat');
+			header('Location: ' . BASEURL . '/obat');
 			exit;
 		}
 
@@ -35,6 +35,7 @@ class Auth extends Controller
 				$_SESSION['nama'] = $user['nama']; // Menyimpan nama user di session
 				$_SESSION['email'] = $user['email']; // Menyimpan email user di session
 
+				$_SESSION['pesan'] = 'Anda berhasil login. <br> Selamat Datang, <strong>' . $user['nama'] . '.</strong>';
 				header('Location: ' . BASEURL . '/obat'); // Mengarahkan pengguna ke halaman dashboard
 				exit;
 			} else {
@@ -56,7 +57,7 @@ class Auth extends Controller
 		if (isset($_SESSION['id_user'])) {
 			// Jika session id_user sudah ada, arahkan ke halaman obat
 			$_SESSION['pesan'] = 'Anda sudah login, tidak bisa mengakses halaman ini lagi';
-			header('Location: http://localhost/esbi/public/obat');
+			header('Location: ' . BASEURL . '/obat');
 			exit;
 		}
 
@@ -69,7 +70,7 @@ class Auth extends Controller
 		if (isset($_SESSION['id_user'])) {
 			// Jika session id_user sudah ada, arahkan ke halaman obat
 			$_SESSION['pesan'] = 'Anda sudah login, tidak bisa mengakses halaman ini lagi';
-			header('Location: http://localhost/esbi/public/obat');
+			header('Location: ' . BASEURL . '/obat');
 			exit;
 		}
 

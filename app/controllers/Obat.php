@@ -2,7 +2,7 @@
 if (!isset($_SESSION['id_user'])) {
 	// Jika session id_user sudah ada, arahkan ke halaman obat
 	$_SESSION['pesan'] = 'Anda belum login, tidak bisa mengakses halaman ini';
-	header('Location: http://localhost/esbi/public/auth/login');
+	header('Location: ' . BASEURL . '/auth/login');
 	exit;
 }
 
